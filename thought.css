@@ -1,0 +1,47 @@
+body {
+    background: black;
+    text-align: center;
+    margin-top: 162px;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 13px;
+    min-height: 340px;
+    width: 35%;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    border: 5px solid #ddd;
+    margin-left: 28%;
+    background-color: gray;
+    font-size: 24px;
+    font-family: italic;
+}
+
+h1 {
+    font-size: 45px;
+    border-bottom: 5px solid #ddd;
+}
+
+button {
+    padding: 10px 30px;
+}
+
+span {
+    color: aqua;
+    font-size: 10px;
+}
+
+.generate {
+    margin-top: 23%;
+}
+
+.main {
+    margin-top: 12px;
+}
+
+.author {
+    margin-top: 50px;
+    color: black;
+}
