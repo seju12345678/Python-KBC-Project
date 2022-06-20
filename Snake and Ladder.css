@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url('https://i.ibb.co/THwLvhj/bg-game1.jpg');
+}
+
+.container {
+    margin: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-image: url('https://i.ibb.co/r5ZMqyB/bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 5px groove;
+}
+
+.row {
+    height: 6.3rem;
+    display: flex;
+}
+
+.square {
+    /*   border: 1px solid rgb(0, 0, 0); */
+    height: 6.3rem;
+    width: 6.3rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    justify-items: center;
+    align-items: center;
+}
+
+.player {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 30%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.player-1 {
+    background-color: #eb1c24;
+    border: 5px solid #fff;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.35);
+}
+
+.player-2 {
+    background-color: #5a9cf0;
+    border: 5px solid #25af4f;
+}
+
+.player-3 {
+    background-color: blue;
+}
+
+.play-area {
+    margin-top: 13rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 40px 20px;
+    width: 400px;
+    border: 5px groove;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-roll {
+    padding: 1rem 2rem;
+    background-color: #4BB543;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.8rem;
+}
+
+.btn-roll:hover {
+    background-color: #ddd;
+    color: #000;
+    border: 1px solid #4BB543;
+}
+
+.btn-roll:active {
+    background-color: #ccc;
+    transform: scale(1.07);
+    transition: all 0.1s ease-out;
+}
+
+.roll-result {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.inform {
+    font-size: 2rem;
+}
+
+
+/* GIF Modal windows */
+
+
+/* Doesn't work as intended: */
+
+
+/* .modal-window-cont {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+dialog {
+    max-width: 700px;
+    border: 0.5px solid #f2f2f2;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 0.5em;
+    position: absolute;
+    top: 15rem;
+    left: 65rem;
+}
+
+dialog::backdrop {
+    background: #fff;
+    opacity: 0.1;
+}
+
+.modal-close {
+    float: right;
+    margin-top: -16px;
+    padding: 10px;
+}
+
+i {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+i:hover {
+    background-color: #f2f2f2;
+    border-radius: 2px;
+}
