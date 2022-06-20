@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./snake.css">
+</head>
+
+<body>
+
+    <h1>(snake and ladder)</h1>
+    <div class="main"></div>
+    <div class="superimposed" id="board"></div>
+    <div class="player" id="player">
+        <h2>Player 1</h2>
+    </div>
+    <div id="side">
+        <center><button class="btn" id="Play" onclick="play()">Start Game</button>
+            <center><br>
+                <center><button id="dice" onclick="random()"><span style="font-size: 40px;font-style: italic;">Die</span></button></center>
+    </div>
+
+    <div class="player" id="p">
+        <h2>Player 2</h2>
+    </div>
+
+
+
+    <div>
+        <div class="sloder"></div>
+    </div>
+    <div id="allmar">
+        <div id="marquee">
+            <marquee direction="right">
+                <img width="150px" height="150px" src="https://png.pngtree.com/element_our/png/20180912/viper-snake-logo-design-element-danger-snake-icon-viper-png_91993.jpg" alt="">
+                <img width="150px" height="150px" src="https://www.kindpng.com/picc/m/115-1157480_ladder-png-free-pic-ladder-icon-png-transparent.png" alt="">
+                <img width="150px" height="150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4deoN4DUTkJ-eY_3GQODqAdofAsfINN5Wag&usqp=CAU" alt="">
+            </marquee>
+
+        </div>
+
+        <div id="marquee1">
+            <marquee direction="down">
+                <img width="150px" height="150px" src="https://png.pngtree.com/element_our/png/20180912/viper-snake-logo-design-element-danger-snake-icon-viper-png_91993.jpg" alt=""> <br>
+                <img width="150px" height="150px" src="https://www.kindpng.com/picc/m/115-1157480_ladder-png-free-pic-ladder-icon-png-transparent.png" alt=""> <br>
+                <img width="150px" height="150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4deoN4DUTkJ-eY_3GQODqAdofAsfINN5Wag&usqp=CAU" alt="">
+            </marquee>
+
+        </div>
+        <div id="marquee11">
+            <marquee direction="left">
+                <img width="150px" height="150px" src="https://png.pngtree.com/element_our/png/20180912/viper-snake-logo-design-element-danger-snake-icon-viper-png_91993.jpg" alt="">
+                <img width="150px" height="150px" src="https://www.kindpng.com/picc/m/115-1157480_ladder-png-free-pic-ladder-icon-png-transparent.png" alt="">
+                <img width="150px" height="150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4deoN4DUTkJ-eY_3GQODqAdofAsfINN5Wag&usqp=CAU" alt="">
+            </marquee>
+
+        </div>
+        <div id="marquee111">
+            <marquee direction="up">
+                <img width="150px" height="150px" src="https://png.pngtree.com/element_our/png/20180912/viper-snake-logo-design-element-danger-snake-icon-viper-png_91993.jpg" alt=""> <br>
+                <img width="150px" height="150px" src="https://www.kindpng.com/picc/m/115-1157480_ladder-png-free-pic-ladder-icon-png-transparent.png" alt=""> <br>
+                <img width="150px" height="150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4deoN4DUTkJ-eY_3GQODqAdofAsfINN5Wag&usqp=CAU" alt="">
+            </marquee>
+
+        </div>
+    </div>
+
+    <div id="refresh">
+        <marquee direction="right">
+            <h3>Note:Refresh the page start a NEW GAME</h3>
+        </marquee>
+    </div>
+</body>
+
+</html>
+<script src="./snake.js"></script>
