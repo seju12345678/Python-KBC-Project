@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="con">
+        <h1 class="h1">CALCULATOR</h1>
+        <div class="bordar">
+            <input type="text" name="" value="" class="disply" id="output">
+            <table class="table">
+                <tr>
+                    <td><button type="button" name="button" class="design" onclick="c()">c</button></td>
+                    <td><button type="button" name="button" class="design" onclick="ac()">ac</button></td>
+                    <td><button type="button" name="button" class="design" onclick="percent()">%</button></td>
+                    <td><button type="button" name="button" class="design" onclick="disply('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" name="button" class="design" onclick="disply('7')">7</button></td>
+                    <td><button type="button" name="button" class="design" onclick="disply('8')">8</button></td>
+                    <td><button type="button" name="button" class="design" onclick="disply('9')">9</button></td>
+                    <td><button type="button" name="button" class="design" onclick="disply('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" name="button" class="design" onclick="disply('4')">4</button></td>
+                    <td><button type="button" name="button" class="design" onclick="disply('5')">5</button></td>
+                    <td><button type="button" name="button" class="design" onclick="disply('6')">6</button></td>
+                    <td><button type="button" name="button" class="design" onclick="disply('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" name="button" class="design" onclick="disply('1')">1</button></td>
+                    <td><button type="button" name="button" class="design" onclick="disply('2')">2</button></td>
+                    <td><button type="button" name="button" class="design" onclick="disply('3')">3</button></td>
+                    <td><button type="button" name="button" class="design" onclick="disply('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" name="button" class="design" onclick="disply('.')">.</button></td>
+                    <td><button type="button" name="button" class="design" onclick="disply('0')">0</button></td>
+                    <td><button type="button" name="button" class="design" onclick="disply('00')">00</button></td>
+                    <td><button type="button" name="button" class="design" onclick="solve()">=</button></td>
+                </tr>
+
+
+            </table>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
